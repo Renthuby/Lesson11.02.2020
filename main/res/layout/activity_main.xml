@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="Input size array"
+
+              android:id="@+id/inputsize"
+    />
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnadd"
+            android:text="Add Array"
+    />
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnsort"
+            android:text="Sort Array"
+    />
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnsearch"
+            android:text="Search Array"
+    />
+    <Button android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/btnaddlist"
+              android:text="Add List"
+/>
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btndelllist"
+            android:text="Dell List"
+    />
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnupdlist"
+            android:text="Update List"
+    />
+
+
+
+        <TextView
+                android:id="@+id/outputarray"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+        />
+    <ListView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/listview"
+    />
+<!--Устаревшая технология, лучше RecycleView-->
+
+</LinearLayout>
